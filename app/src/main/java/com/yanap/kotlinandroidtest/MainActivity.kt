@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         // ↓リテラル直書きは推奨されないらしい。
         //textView.text = "Fucking Text"
         //textView.setText("Fucking Text")
-        // ↓変数噛ませると・・・？
+        // ↓変数を一旦挿むか、
         val fuckingText = "Fucking Variable Text"
         textView.setText(fuckingText)
-        // ↓Resourceに放り込んでおいたものを引っ張ってくる。
+        // ↓あらかじめResourceに放り込んでおいたものを引っ張ってくる。
         //textView.setText(R.string.FuckingText)
     }
 }
