@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         //textView.setText("Fucking Text")
         // ↓変数を一旦挿むか、
         val fuckingText = "Fucking Variable Text"
-        textView.setText(fuckingText)
+        textView.text = fuckingText
         // ↓あらかじめResourceに放り込んでおいたものを引っ張ってくる。
         //textView.setText(R.string.FuckingText)
     }
